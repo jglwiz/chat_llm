@@ -1,1 +1,1 @@
-pyinstaller --onefile --clean -w ./src/chat.py
+pyinstaller --name chat --clean --onefile --clean -w ./src/main.py

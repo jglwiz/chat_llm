@@ -1,0 +1,1 @@
+cp .\dist\chat.exe d:\app\chat\

@@ -96,7 +96,7 @@ class ChatFrame(wx.Frame):
         
     def force_exit(self, event):
         """强制退出程序"""
-        self.hotkey_manager.cleanup()
+        del self.hotkey_manager
         self.tray_icon.Destroy()
         self.Destroy()
         wx.GetApp().ExitMainLoop()
